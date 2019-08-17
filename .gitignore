@@ -1,0 +1,14 @@
+
+adam-ide/adam-ide-core/log/
+
+adam-ide/adam-ide-core/target/
+
+adam-ide/application/target/
+
+adam-ide/branding/target/
+
+adam-lan/target/
+
+adam-lan/log/
+
+adam-lan/\.idea/

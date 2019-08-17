@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.vpc.scholar.adam</groupId>
+    <artifactId>adam-lan</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <name>adam-lan</name>
+    <dependencies>
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>voice-cmu-slt-hsmm</artifactId>
+            <version>5.2</version>
+            <!--            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>-->
+        </dependency>
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>marytts-lang-fr</artifactId>
+            <version>5.2</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>voice-istc-lucia-hsmm</artifactId>
+            <version>5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>voice-upmc-pierre-hsmm</artifactId>
+            <version>5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>net.vpc.common</groupId>
+            <artifactId>vpc-common-jeep</artifactId>
+            <version>1.2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>net.vpc.common</groupId>
+            <artifactId>vpc-common-utils</artifactId>
+            <version>1.22.6</version>
+        </dependency>
+        <dependency>
+            <groupId>net.vpc.common</groupId>
+            <artifactId>vpc-common-strings</artifactId>
+            <version>1.2.18</version>
+        </dependency>
+        <dependency>
+            <groupId>net.vpc.games</groupId>
+            <artifactId>atom-game-engine</artifactId>
+            <version>1.5.4.1</version>
+        </dependency>
+    </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>jcenter.bintray.com</id>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
+
+</project>
