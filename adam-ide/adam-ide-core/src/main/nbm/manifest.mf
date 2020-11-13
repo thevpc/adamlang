@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: net/vpc/scholar/adam/adam/ide/Bundle.properties
 OpenIDE-Module-Requires: org.openide.windows.WindowManager
-Export-Package: net.vpc.scholar.adam.adam.ide
+Export-Package: net.thevpc.scholar.adam.adam.ide

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.vpc.scholar.adam</groupId>
+    <groupId>net.thevpc.scholar.adam</groupId>
     <artifactId>adam-lan</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -40,24 +40,29 @@
             <version>5.2</version>
         </dependency>
         <dependency>
-            <groupId>net.vpc.common</groupId>
-            <artifactId>vpc-common-jeep</artifactId>
-            <version>1.2.6</version>
+            <groupId>net.thevpc.jeep</groupId>
+            <artifactId>jeep</artifactId>
+            <version>1.2.7</version>
         </dependency>
         <dependency>
-            <groupId>net.vpc.common</groupId>
-            <artifactId>vpc-common-utils</artifactId>
-            <version>1.22.6</version>
+            <groupId>net.thevpc.jeep</groupId>
+            <artifactId>jeep-nodes</artifactId>
+            <version>1.2.7</version>
         </dependency>
         <dependency>
-            <groupId>net.vpc.common</groupId>
-            <artifactId>vpc-common-strings</artifactId>
+            <groupId>net.thevpc.common</groupId>
+            <artifactId>thevpc-common-utils</artifactId>
+            <version>1.23.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.thevpc.common</groupId>
+            <artifactId>thevpc-common-strings</artifactId>
             <version>1.2.18</version>
         </dependency>
         <dependency>
-            <groupId>net.vpc.games</groupId>
+            <groupId>net.thevpc.gaming</groupId>
             <artifactId>atom-game-engine</artifactId>
-            <version>1.5.4.1</version>
+            <version>1.5.4.2</version>
         </dependency>
     </dependencies>
     

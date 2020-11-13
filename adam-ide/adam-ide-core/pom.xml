@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>net.vpc.scholar.adam</groupId>
+        <groupId>net.thevpc.scholar.adam</groupId>
         <artifactId>adam-ide-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -92,7 +92,7 @@
                 <configuration>
                     <useOSGiDependencies>false</useOSGiDependencies>
                     <publicPackages>
-                        <publicPackage>net.vpc.scholar.adam.adam.ide</publicPackage>
+                        <publicPackage>net.thevpc.scholar.adam.adam.ide</publicPackage>
                     </publicPackages>
                 </configuration>
             </plugin>
@@ -112,7 +112,7 @@
                 <configuration>
                     <instructions>
                         <!--<Bundle-Activator>com.mycompany.mavenhelloservice.Installer</Bundle-Activator>-->
-                        <Export-Package>net.vpc.scholar.adam.adam.ide</Export-Package>
+                        <Export-Package>net.thevpc.scholar.adam.adam.ide</Export-Package>
                         <!--<Private-Package>com.mycompany.mavenhelloservice.*</Private-Package>-->
                     </instructions>
                 </configuration>
